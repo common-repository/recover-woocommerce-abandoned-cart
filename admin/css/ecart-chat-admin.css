@@ -1,0 +1,76 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*
+popup
+*/
+body{
+	background: #f1f1f1!important;
+}
+#popup{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:16px;font-weight:400;line-height:1.5;-webkit-text-size-adjust:100%;background:#fff;color:#666;
+}
+#popup.uk-modal {
+    background: rgba(0,0,0,.3)
+}
+#popup .uk-modal-dialog {
+    transform: none;
+}
+#popup .uk-modal-body {
+    padding: 60px 30px;
+    background-image:url("transparent-ecart-logo.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+#letsconnect {
+    background: linear-gradient(to right, #EE5E0F , #EF7F30);
+}
+#popup .uk-modal-body, #letsconnect, #popup .uk-card {
+    border-radius: 4px;
+}
+.uk-modal-dialog{opacity: 1 !important;}
+.ecart_link {
+    margin: 0 15px;
+    text-decoration: none !important;
+    background-color:#EE802E;
+    color:#fff !important;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.ecart_link:hover {
+    margin: 0 15px;
+    text-decoration: none;
+    color:#EE802E !important;
+    background-color:#fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+	border: 1px solid #EE802E;
+}
+.ecart_admin_head {
+	padding: 60px 30px;
+	background:#fff;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 25px rgba(0,0,0,.16) !important;
+}
+.ecart_admin_head img{
+	width: 250px;
+	margin-left: 16px;
+}
+.admin_dash_descr {
+    padding: 15px;
+	font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.admin_dash_descr p{
+	font-size: 16px;
+	color:#7b7b7b;
+	font-weight: 600;
+	padding: 10px;
+}
